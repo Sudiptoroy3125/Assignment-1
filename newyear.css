@@ -185,3 +185,56 @@ button{
     font-weight: 700;
     text-transform: uppercase;
 }
+/* circle section releated styles */
+.circle-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Elipse{
+    padding: 20px;
+    border: 10px solid #f00;
+    border-radius: 50%;
+    width: 200px;
+}
+.group96{
+    width: 80px;
+}
+.comming-soon > h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.comming-soon > h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+.comming-soon > p{
+    width: 350px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.twozero > h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+}
+.twozero > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
