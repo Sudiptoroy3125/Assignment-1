@@ -186,11 +186,29 @@ button{
     text-transform: uppercase;
 }
 /* circle section releated styles */
-.circle-section{
+/* .circle-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+} */
+.cirlce-offer-container{
+    max-width: 860px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+}
+.twozero{
+    position: relative;
+    left: 900px;
+    bottom: 450px;
+}
+.circle-img{
+    position: relative;
+    left: 530px;
+    bottom: 200px;
 }
 .Elipse{
     padding: 20px;
@@ -225,6 +243,12 @@ button{
     font-weight: 400;
     line-height: 22px;
 }
+.comming-soon{
+    position: relative;
+    left: 130px;
+    right: 0px;
+    top: 50px;
+}
 .twozero > h2{
     color: #F00;
     font-family: Inter;
@@ -232,9 +256,44 @@ button{
     font-weight: 700;
 }
 .twozero > p{
+    width: 200px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
+}
+/* portfolio section releated styles */
+.portfolio-section{
+    box-sizing: border-box;
+    max-width: 860px;
+    margin: auto;
+}
+.portfolio-info > h4{
+    margin-bottom: 0px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-info > h1{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.portfolio-info > p{
+    margin-bottom: 5px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.portfolio-img-container > img{
+    width: 250px;
+    padding: 10px;
 }
