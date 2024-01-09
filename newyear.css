@@ -297,3 +297,29 @@ button{
     width: 250px;
     padding: 10px;
 }
+/* newsletter container releated styles */
+.newsletter-container{
+    max-width: 860px;
+    margin: auto;
+}
+.newsletter-container > img{
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+.newsletter-container h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.newsletter-container p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
